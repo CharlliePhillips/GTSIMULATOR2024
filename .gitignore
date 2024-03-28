@@ -1,0 +1,5 @@
+*.sh
+*.jar
+/src/examples/*
+mGBA
+.git/*
