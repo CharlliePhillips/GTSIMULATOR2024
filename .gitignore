@@ -1,4 +1,3 @@
-*.jar
 /src/examples/*
 mGBA
 .git/*
