@@ -21,11 +21,19 @@ Made By Charles Phillips for CS2110 Spring 2024 with Mr. Mark Moss.
 <sub><sup>P.S. Whatever you do DO NOT press the L and R buttons at the same time on the Leaderboard screen.</sup></sub>
 
 To compile:
+
 `git pull https://github.com/CharlliePhillips/GTSIMULATOR2024`
+
 `cd GTSIMULATOR2024/src`
+
 (make sure you have docker desktop running before running this script)
+
 `./cs2110docker-gba.sh`
+
 `cd host`
+
 `make`
+
 Then, wait a second, and the App.gba file will be in GTSIMULATOR/src/.
+
 Emulator software not included, you know where to find it.
