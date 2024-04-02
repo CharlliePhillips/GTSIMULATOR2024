@@ -3,3 +3,8 @@
 /src/examples/*
 mGBA
 .git/*
+*.o
+*.elf
+*.sav
+*.gba
+client

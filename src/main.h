@@ -23,5 +23,19 @@
 * };
 *
 */
+typedef struct {
+    u16 X;
+    u16 Y;
+    short VX;
+    short VY;
+    const u16 *img;
+    int width;
+    int height;
+} enemy;
 
+int gamePlay(u32 currButtons, u32 oldButtons, enemy *enemies[]);
+void gameLoose(u32 currButtons, u32 oldButtons);
+void drawTitleScreen(void);
+void drawPSelectBox(int player);
+void drawScores(void);
 #endif

@@ -14,23 +14,11 @@
 #ifndef BACKGROUND_H
 #define BACKGROUND_H
 
-extern const unsigned short garbage[7500];
-#define GARBAGE_SIZE 15000
-#define GARBAGE_LENGTH 7500
-#define GARBAGE_WIDTH 100
-#define GARBAGE_HEIGHT 75
-
 extern const unsigned short background[38400];
 #define BACKGROUND_SIZE 76800
 #define BACKGROUND_LENGTH 38400
 #define BACKGROUND_WIDTH 240
 #define BACKGROUND_HEIGHT 160
-
-extern const unsigned short buzz[6400];
-#define BUZZ_SIZE 12800
-#define BUZZ_LENGTH 6400
-#define BUZZ_WIDTH 80
-#define BUZZ_HEIGHT 80
 
 #endif
 

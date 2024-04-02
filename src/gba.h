@@ -61,7 +61,7 @@ extern volatile unsigned short *videoBuffer;
 // Remember that a button is recently pressed if it wasn't pressed in the last
 // input (oldButtons) but is pressed in the current input. Use the KEY_DOWN
 // macro to check if the button was pressed in the inputs.
-#define KEY_JUST_PRESSED(key, buttons, oldbuttons)
+#define KEY_JUST_PRESSED(key, buttons, oldbuttons) ((KEY_DOWN(key, buttons) & ~KEY_DOWN(key, oldbuttons)))
 
 // ---------------------------------------------------------------------------
 //                       DMA
@@ -143,6 +143,7 @@ void fillScreenDMA(volatile u16 color);
 void drawChar(int row, int col, char ch, u16 color);
 void drawString(int row, int col, char *str, u16 color);
 void drawCenteredString(int row, int col, int width, int height, char *str, u16 color);
+
 
 /* Contains the pixels of each character from a 6x8 font */
 // This is in the font.c file. You can replace the font if you want.
